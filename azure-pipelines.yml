@@ -35,7 +35,6 @@ steps:
     minorVersion: '0'
     patchVersion: '0'
  
-- task: NuGetAuthenticate@0
 - task: DotNetCoreCLI@2
   displayName: 'Publish NuGet package'
   inputs:
