@@ -41,5 +41,5 @@ steps:
     command: push
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: '$(System.TeamProject)/Tailspin.SpaceGame.Web.Models2'
+    publishVstsFeed: 'Space Game - web - Pipeline/Tailspin.SpaceGame.Web.Models2'
   condition: succeeded()
